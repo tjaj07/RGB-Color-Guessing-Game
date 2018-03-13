@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+  </head>
+  <body>
+
+    <!--conatin the game title and rgb color value to be gussed-->
+    <div id="top">
+      <h1>Color Guess Game</h1>
+      <h1>RGB: (<span id="R">200</span>,<span id="G">200</span>,<span id="B">200</span>)</h1>
+      <p></p>
+    </div>
+
+    <!-- contains switch mode and new game options-->
+    <nav>
+      <a id="resetcolor" href="#">New</a>
+      <a id="easy" href="#">Easy</a>
+      <a id="hard" href="#">Hard</a>
+    </nav>
+
+    <!--to display the result of the selection pf color-->
+    <h1 class="w3-center w3-animate-zoom" id = "result">Begin!</h1>
+
+    <!--Playing area, where colors are displayed-->
+    <div class="container">
+      <table>
+        <tr>
+          <td id = "hello"></td>
+          <td id = "2"></td>
+          <td id = "3"></td>
+        </tr>
+        <tr>
+          <td id = "4"></td>
+          <td id = "5"></td>
+          <td id = "6"></td>
+        </tr>
+      </table>
+    </div>
+
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>

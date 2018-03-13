@@ -1,0 +1,56 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin:0;
+  padding:0;
+  background-color:black;
+}
+
+#top{
+  margin: 0;
+  padding:10px;
+  color:white;
+  background-color: rgb(16,78,139);
+}
+
+nav{
+  background-color: white;
+  color:black;
+  height:30px;
+  line-height: 30px;
+}
+
+#result{
+  font-family: 'Kaushan Script', cursive;
+  color:#FF3399;
+}
+
+table{
+  margin:40px auto;
+}
+
+td {
+  width:120px;
+  height:120px;
+  border-radius: 20px;
+  padding:10px;
+}
+
+a{
+  margin:0 10px;
+  padding:0 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+}
+
+a:hover{
+  color:#FF3800;
+}
+
+@media only screen and (max-width: 500px) {
+    a{
+      padding:10px;;
+      margin:5px;
+    }
+}
